@@ -15,7 +15,7 @@ import {
   ParserAdapter,
   semanticTokenTypes,
   Suggestion,
-} from '@cucumber/language-service'
+} from '@helgardf/cucumber-language-service'
 import {
   CodeAction,
   CodeActionKind,

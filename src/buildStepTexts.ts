@@ -1,5 +1,5 @@
 import { walkGherkinDocument } from '@cucumber/gherkin-utils'
-import { parseGherkinDocument } from '@cucumber/language-service'
+import { parseGherkinDocument } from '@helgardf/cucumber-language-service'
 
 export function buildStepTexts(gherkinSource: string): readonly string[] {
   const { gherkinDocument } = parseGherkinDocument(gherkinSource)

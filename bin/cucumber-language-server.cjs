@@ -7,7 +7,7 @@ const url = require('url')
 const { version } = require('../src/version')
 
 const wasmBaseUrl = url.pathToFileURL(
-  `${__dirname}/../node_modules/@cucumber/language-service/dist`
+  `${__dirname}/../node_modules/@helgardf/cucumber-language-service/dist`
 )
 const { connection } = startStandaloneServer(wasmBaseUrl.href, (rootUri) => new NodeFiles(rootUri))
 
